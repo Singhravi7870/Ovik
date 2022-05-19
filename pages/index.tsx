@@ -1,38 +1,40 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Layout from '@/components/layout';
+import { GoogleLogin } from 'react-google-login';
+
+const responseGoogle = (response: any) => {
+  console.log(response);
+}
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Ovik Finance - Admin</title>
-        <meta name="description" content="Ovik Finance" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
+    <Layout>
         <h1 className={styles.title}>
           Welcome to <a>Ovik Finance!</a>
         </h1>
 
         <div className={styles.grid}>
           <a href="" className={styles.card}>
-          <span className={styles.logo}>
-            <Image src="/google-logo.svg" alt="Google Logo" width={72} height={16} />
-          </span>
-            Login with Google
+            <GoogleLogin className={styles.card}
+              clientId="658977310896-knrl3gka66fldh83dao2rhgbblmd4un9.apps.googleusercontent.com"
+              buttonText="Login with Google"
+              onSuccess={responseGoogle}
+              onFailure={responseGoogle}
+              cookiePolicy={'single_host_origin'}
+            />
           </a>
         </div>
-
-      </main>
-
-      <footer className={styles.footer}>
-        
-      </footer>
-    </div>
+        <div className={styles.grid}>
+          <a href="/dashboard" className={styles.card}>
+            <span className={styles.logo}>
+            Login
+            </span>  
+          </a>
+        </div>
+    </Layout>
   )
 }
 
 export default Home
+

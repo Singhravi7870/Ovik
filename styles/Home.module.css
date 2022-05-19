@@ -3,12 +3,21 @@
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex: 1;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid #eaeaea;
+  justify-content: left;
   align-items: center;
 }
 
@@ -76,16 +85,15 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+  padding-top: inherit;
 }
 
 .card {
-  margin: 1rem;
-  padding: 1rem;
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .card:hover,
@@ -108,6 +116,7 @@
 
 .logo {
   height: 1em;
+  padding: 1rem;
 }
 
 @media (max-width: 600px) {
