@@ -6,7 +6,7 @@ const Header: NextPage = () => {
   return (
       <div className={styles.header}>
         <div className={styles.grid}>
-            <Image src="/ovik-finance-logo.png" alt="Ovik Finance" width={200} height={50} />
+            <Image src="/ovik_finance_logo.png" alt="Ovik Finance" width={200} height={50} />
         </div>
       </div>
   )
