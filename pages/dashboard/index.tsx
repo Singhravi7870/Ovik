@@ -2,12 +2,21 @@ import type { NextPage } from 'next'
 import Layout from '@/components/Layout';
 import styles from '../../styles/Home.module.css'
 
+import React from "react";
+
 const Dashboard: NextPage = () => {
+
   return (
     <Layout>
-        <h1 className={styles.title}>
-          Welcome to <a>Dashboard!!</a>
-        </h1>
+
+      <div className={styles.topbar}>
+          <a href="/dashboard/add_new" className={styles.card}>
+            <span className={styles.logo}>
+            Add New 
+            </span>  
+          </a>
+      </div>
+
     </Layout>
   )
 }

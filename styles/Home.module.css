@@ -4,7 +4,7 @@
 
 .main {
   min-height: 80vh;
-  padding: 4rem 0;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -85,7 +85,7 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
-  padding-top: inherit;
+  /* padding-top: inherit; */
 }
 
 .card {
