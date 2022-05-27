@@ -88,6 +88,7 @@ const AddNew: NextPage = () => {
 
             <button type="submit" >Submit</button>
           </form>
+          
       </Layout>
           
   )

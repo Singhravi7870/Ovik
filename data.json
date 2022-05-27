@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name_of_org": "NIT AP",
+      "signatory_name": " Ravi",
+      "contact_number": "7870286099",
+      "GSTIN": "10gffxh6778",
+      "status": "open"
+    },
+    {
+      "id": 2,
+      "name_of_org": "vision",
+      "signatory_name": "Ranjan",
+      "contact_number": "8870286099",
+      "GSTIN": "11hhbsdjfcbhkjdb",
+      "status": "close"
+    },
+    {
+      "id": 3,
+      "name_of_org": "Allen",
+      "signatory_name": "Vishnu Verma",
+      "contact_number": "9870286099",
+      "GSTIN": "12hhbsdjfcbhkjdb",
+      "status": "open"
+    },
+    {
+      "id": 4,
+      "name_of_org": "Mentors",
+      "signatory_name": "Utkarsh Anand",
+      "contact_number": "6870286099",
+      "GSTIN": "41hhbsdjfcbhkjdb",
+      "status": "open"
+    },
+    {
+      "id": 5,
+      "name_of_org": "Resonance",
+      "signatory_name": "Yogendra",
+      "contact_number": "7970286099",
+      "GSTIN": "18hhbsdjfcbhkjdb",
+      "status": "open"
+    },
+    {
+      "id": 6,
+      "name_of_org": "VMC",
+      "signatory_name": "Amit",
+      "contact_number": "6070286099",
+      "GSTIN": "91hhbsdjfcbhkjdb",
+      "status": "close"
+    }
+  ]

@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Layout from '@/components/Layout';
 import { GoogleLogin } from 'react-google-login';
 
+
 const responseGoogle = (response: any) => {
   console.log(response);
 }
