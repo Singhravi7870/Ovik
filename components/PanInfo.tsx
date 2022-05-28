@@ -22,14 +22,7 @@ export function PanInfo(props: IProps) {
                         type="text"
                     />
                 </Form.Group>
-                {/* <Form.Group controlId="formGroupPassword">
-                    <Form.Label>Phone number</Form.Label>
-                    <Form.Control
-                        value={formState.phonenumber}
-                        onChange={(event) => handleChange(event.target.value, 'phonenumber')}
-                        type="text"
-                    />
-                </Form.Group> */}
+             
                 <Form.Group>
                     <Button onClick={previousStep} type="submit">Previous</Button>
                 </Form.Group>

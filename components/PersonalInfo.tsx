@@ -21,22 +21,7 @@ export function PersonalInfo(props: IProps) {
                         type="text"
                     />
                 </Form.Group> 
-                {/* <Form.Group controlId="formGroupPassword">
-                    <Form.Label>Father Name</Form.Label>
-                    <Form.Control
-                        value={formState.fathername}
-                        onChange={(event) => handleChange(event.target.value, 'fathername')}
-                        type="text"
-                    />
-                </Form.Group>  */}
-                {/* <Form.Group controlId="formGroupPassword">
-                    <Form.Label>Mother Name</Form.Label>
-                    <Form.Control
-                        value={formState.mothername}
-                        onChange={(event) => handleChange(event.target.value, 'mothername')}
-                        type="text"
-                    />
-                </Form.Group> */}
+               
                 <Form.Group controlId="formGroupPassword">
                     <Form.Label>Phone number</Form.Label>
                     <Form.Control
