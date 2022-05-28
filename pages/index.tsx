@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import styles from '../styles/Home.module.css'
 import Layout from '@/components/Layout';
 import { GoogleLogin } from 'react-google-login';
-
+import 'bootstrap/dist/css/bootstrap.css'
 
 const responseGoogle = (response: any) => {
   console.log(response);
